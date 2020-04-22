@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Part.4 Animation</title>
+    <meta name="viewport" content="width=device-width, initail-scale=1.0" charset="utf-8">
+    <link rel="stylesheet" href="Animation.css">
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="nav-logo">
+        <img src="pic/logo.png" alt="">
+      </div>
+      <div class="nav-links" id="mobileMenu">
+        <ul>
+          <a href="#"><li>HOME</li></a>
+          <a href="#"><li>ABOUT</li></a>
+          <a href="#"><li>TEACHING</li></a>
+          <a href="#"><li>BLOG</li></a>
+          <a href="#"><li>CONTACT</li></a>
+        </ul>
+      </div>
+      <img src="pic/menu-icon.png" class="menu-icon" onclick="showmenu()" alt="">
+    </div>
+    <div class="Politeknik">
+      <h1>WELCOME TO EBOOK, <br>SIGN UP HERE.</h1>
+      <div class="Lighting">
+        <img src="pic/ebook-electronic-book.png" alt="">
+      </div>
+      <div class="button">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span>
+        <p>Click Me</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function showmenu(){
+        var toggle = document.getElementById("mobileMenu");
+        if(toggle.style.height == "0px"){
+          toggle.style.height = "200px";
+        }
+        else{
+          toggle.style.height = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

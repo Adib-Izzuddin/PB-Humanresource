@@ -1,0 +1,183 @@
+body{
+  background-image: url('pic/Healthy lifestyle.jpg');
+}
+
+h1{
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 50px;
+  font-family: forte;
+  text-decoration: underline;
+  text-align: center;
+  color: blue;
+  background: orange;
+  border: 2px solid white;
+  border-radius: 20%;
+}
+
+h2{
+  margin-left: 520px;
+  margin-right: 520px;
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: fantasy;
+  text-decoration: underline;
+  text-align: center;
+  color: orange;
+  background: lightblue;
+  border: 2px solid white;
+  border-radius: 20%;
+}
+
+.Bingo-Template table{
+  font-size: 20px;
+  border: 10px solid black;
+  background-color: white;
+  color: white;
+  text-align: center;
+  width: 650px;
+  height: 700px;
+  margin-left: 340px;
+  margin-right: 400px;
+  font-family: cursive;
+}
+
+.Bingo-Template td {
+  background-color: green;
+}
+
+.Footer{
+  font-size: 20px;
+  font-family: monospace;
+  margin-left: 680px;
+}
+
+.Bingo h2{
+  font-size: 40px;
+  font-family: cursive;
+  background-color: green;
+  border-radius: 20%;
+  color: white;
+  border-color: white;
+}
+
+.Bingo input{
+  width: 200px;
+  height: 30px;
+  margin-left: 540px;
+}
+
+.Bingo button{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+#I-got-Bingo{
+  width: 110px;
+  height: 100%;
+  background-color: green;
+  transition: .5s;
+  width: 220px;
+  height: 30px;
+}
+@media (max-width: 768px){
+  h1{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 350px;
+  }
+
+  h2{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 420px;
+    margin-top: 20px;
+  }
+
+  .Bingo-Template table{
+    width: 400px;
+    height: 300px;
+    font-size: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+
+  .Bingo-Template td {
+    background-color: green;
+  }
+
+  .Footer{
+    font-size: 10px;
+    margin-left: 290px;
+  }
+
+  .Bingo h2{
+    font-size: 30px;
+    font-family: cursive;
+    background-color: green;
+    border-radius: 20%;
+    color: white;
+    border-color: white;
+  }
+
+  .Bingo input{
+    width: 200px;
+    height: 30px;
+    margin-left: 100px;
+  }
+
+  .Bingo button{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: cursive;
+  }
+
+  #I-got-Bingo{
+    width: 110px;
+    height: 100%;
+    background-color: green;
+    transition: .5s;
+    width: 220px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 375px){
+  h1{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  h2{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 70px;
+    margin-top: 20px;
+  }
+
+  .Bingo-Template table{
+    font-size: 10px;
+    margin-left: 1px;
+    margin-right: 20px;
+    width: 250px;
+    height: 300px;
+  }
+
+  .Bingo-Template td {
+    background-color: green;
+  }
+
+  .Footer{
+    margin-left: 10px;
+    font-size: 10px;
+  }
+}

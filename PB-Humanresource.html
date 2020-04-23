@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initail-scale=1.0" charset="utf-8">
+    <link rel="stylesheet" href="PB Teacher hiring.css">
+    <title>PB Human Resource for teachers</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <form class="search-form" action="index.html" method="post">
+          <div class="social-icons">
+            <img src="pic/Facebook.png" alt="">
+            <img src="pic/gmail-computer-icons-email-client-user-gmail.jpg" alt="">
+            <img src="pic/Twitter.png" alt="">
+          </div>
+          <input type="text" name="" value="" placeholder="search">
+          <button type="button" name="button">search</button>
+        </form>
+      </div>
+      <div class="Banner">
+        <img src="pic/Banner Poli.jpg" alt="">
+      </div>
+      <div class="navbar" id="Home">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">About PB</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Career</a>
+              <ul>
+                <li><a href="#">Job Oppurtunities</a></li>
+                <li><a href="#">Teacher for hiring</a></li>
+                <li><a href="#">Staff Position</a></li>
+                <li><a href="#">Others</a></li>
+              </ul>
+            </li>
+            <li><a href="#">PB School</a>
+              <ul>
+                <li><a href="#">School of Business</a></li>
+                <li><a href="#">School of Health Sciences</a></li>
+                <li><a href="#">School of Information and Communication Technology</a></li>
+                <li><a href="#">School of Science and Engineering</a></li>
+                <li><a href="#">Department of General Studies</a></li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+      <div class="slide-container" id="slider">
+        <div class="mySlides fade">
+          <img src="pic/POLI-PIC 1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="pic/POLI-PIC 2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="pic/POLI-PIC 3.jpg" style="width:100%">
+        </div>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <div class="Mission-and-vision">
+        <div class="Mission">
+          <h2>Mission</h2>
+          <p>To equip students with sustainable skills through holistic and
+            quality education in a supportive teaching and learning environment</p>
+        </div>
+        <div class="Vision">
+          <h2>Vision</h2>
+          <p>​To be a reputable polytechnic producing
+            innovative, skillful and marketable graduates</p>
+        </div>
+      </div>
+
+      <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      </script>
+    </div>
+  </body>
+</html>
